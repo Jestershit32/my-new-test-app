@@ -1,0 +1,50 @@
+.miniProfileCard {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	padding: 12px 10px;
+	border-radius: 30px;
+	background-color: var(--dark-color);
+	color: var(--light-color);
+  max-width: 250px;
+  min-width: 180px;
+}
+.miniProfileCard__fistBlock {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	font-size: var(--main-font);
+}
+.miniProfileCard__image {
+	min-width: 60px;
+	height: 60px;
+	border-radius: 50%;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+.miniProfileCard__name {
+  text-wrap: wrap;
+  word-break:break-all
+}
+.miniProfileCard__secondBlock {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+.miniProfileCard__icon {
+  width: 25px;
+	height: 25px;
+}
+.miniProfileCard__nick {
+}
+
+
+.miniProfileCard__button{
+  
+  
+}
+.miniProfileCard__button:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

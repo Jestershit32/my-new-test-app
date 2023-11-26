@@ -1,0 +1,21 @@
+:root {
+  --background-gradient:radial-gradient(circle, rgba(134,93,255,1) 0%, rgba(177,93,255,1) 100%);
+  --dark-color:rgba(25, 24, 37, 1);
+  --light-color:rgb(255, 255, 255);
+  --main-font:16px;
+}
+@media (max-width: 1024px) {
+  :root {
+    --main-font:16px;
+  }
+}
+@media (max-width:720px) {
+  :root {
+    --main-font:14px;
+  }
+}
+@media (max-width: 360px) {
+  :root {
+    --main-font:12px;
+  }
+}
